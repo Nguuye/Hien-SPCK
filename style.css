@@ -10,19 +10,19 @@
 
   --body-font-family:             'DM Sans', sans-serif;
 
-  --h1-font-size:                 62px;
-  --h2-font-size:                 48px;
-  --h3-font-size:                 36px;
-  --h4-font-size:                 32px;
-  --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
-  --p-font-size:                  18px;
-  --menu-font-size:               12px;
-  --copyright-font-size:          14px;
+  --h1-font-size:                 64px;
+  --h2-font-size:                 51px;
+  --h3-font-size:                 39px;
+  --h4-font-size:                 34px;
+  --h5-font-size:                 28px;
+  --h6-font-size:                 25px;
+  --p-font-size:                  16px;
+  --menu-font-size:               11px;
+  --copyright-font-size:          13px;
 
-  --border-radius-large:          100px;
-  --border-radius-medium:         20px;
-  --border-radius-small:          10px;
+  --border-radius-large:          110px;
+  --border-radius-medium:         30px;
+  --border-radius-small:          20px;
 
   --font-weight-normal:           400;
   --font-weight-medium:           500;
@@ -54,12 +54,12 @@ h4,
 h5,
 h6 {
   font-weight: var(--font-weight-bold);
-  letter-spacing: -1px;
+  letter-spacing: -2px;
 }
 
 h1 {
   font-size: var(--h1-font-size);
-  letter-spacing: -3px;
+  letter-spacing: -2.5px;
 }
 
 h2 {
@@ -135,7 +135,7 @@ strong {
 .section-title-wrap {
   background: var(--secondary-color);
   border-radius: var(--border-radius-small);
-  padding: 10px 30px;
+  padding: 15px 30px;
 }
 
 
@@ -144,14 +144,14 @@ strong {
 -----------------------------------------*/
 .avatar-image {
   border-radius: var(--border-radius-large);
-  width: 200px;
-  height: 200px;
+  width: 225px;
+  height: 225px;
   object-fit: cover;
 }
 
 .avatar-image-large {
-  width: 90.4px;
-  height: 90.4px;
+  width: 94.4px;
+  height: 94.4px;
 }
 
 
@@ -233,11 +233,11 @@ strong {
 
 .navbar .custom-btn {
   background: transparent;
-  border-width: 2px;
+  border-width: 3px;
   border-style: solid;
   border-color: var(--white-color);
   color: var(--white-color);
-  padding: 10px 25px;
+  padding: 12px 24px;
 }
 
 .navbar .custom-btn:hover {
@@ -251,7 +251,7 @@ strong {
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-weight: var(--font-weight-bold);
-  padding: 12px 25px;
+  padding: 12px 24px;
 }
 
 .custom-btn:hover {
@@ -321,14 +321,14 @@ strong {
   z-index: 9;
   right: 0;
   left: 0;
-  transition: all 0.1s;
+  transition: all 0.125s;
   padding-top: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 24px;
 }
 
 .navbar .container {
   border-radius: var(--border-radius-small);
-  padding: 10px 25px;
+  padding: 12px 24px;
 }
 
 .navbar-brand {
@@ -344,8 +344,8 @@ strong {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 22px;
+  margin-left: 22px;
 }
 
 .navbar-nav .nav-link {
@@ -386,7 +386,7 @@ strong {
   cursor: pointer;
   margin: 0;
   width: 30px;
-  height: 35px;
+  height: 36px;
   outline: none;
 }
 
@@ -419,8 +419,8 @@ strong {
   background: var(--white-color);
   transition: background 10ms 300ms ease;
   display: block;
-  width: 30px;
-  height: 2px;
+  width: 34px;
+  height: 4px;
   position: relative;
 }
 
@@ -439,11 +439,11 @@ strong {
 }
 
 .navbar-toggler .navbar-toggler-icon::before {
-  top: -8px;
+  top: -9px;
 }
 
 .navbar-toggler .navbar-toggler-icon::after {
-  top: 8px;
+  top: 9px;
 }
 
 
@@ -452,7 +452,7 @@ strong {
 -----------------------------------------*/
 .hero {
   background: var(--secondary-color);
-  position: relative;
+  position: relativ;
   overflow: hidden;
   padding-top: 305px;
   padding-bottom: 305px;
@@ -478,21 +478,21 @@ strong {
 }
 
 .hero h2 {
-	font-size: 38px;
+	font-size: 37px;
 }
 
 .hero-text {
   position: relative;
   z-index: 22;
-  top: 70px;
+  top: 75px;
 }
 
 .hero-image-wrap {
   background: var(--white-color);
   border-radius: 100%;
-  width: 350px;
-  height: 350px;
-  position: relative;
+  width: 325px;
+  height: 325px;
+  position: absolute;
   z-index: 22;
   right: 0;
   left: 0;
@@ -538,9 +538,9 @@ strong {
   border-right: 1px solid var(--border-color);
   color: var(--secondary-color);
   font-weight: var(--font-weight-bold);
-  min-width: 144px;
+  min-width: 240px;
   margin-right: 12px;
-  padding: 19px 33px;
+  padding: 19px 31px;
   display: inline-block;
 }
 
@@ -589,12 +589,12 @@ strong {
 -----------------------------------------*/
 
 .clients-item-height {
-	height: 125px;
+	height: 121px;
 }
 
 .clients-image {
   display: block;
-  max-width: 103px;
+  max-width: 104px;
   margin: auto;
   transition: all ease 0.3s;
 }
@@ -620,7 +620,7 @@ strong {
   position: relative;
   overflow: hidden;
   margin-bottom: 27px;
-  padding: 40px 40px 240px 40px;
+  padding: 40px 40px 210px 40px;
   transition: all 0.4s;
 }
 
@@ -631,7 +631,7 @@ strong {
 }
 
 .services-thumb:hover {
-  border: 2px solid var(--secondary-color);
+  border: 3px solid var(--secondary-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
 }
 
@@ -648,13 +648,13 @@ strong {
   bottom: 0;
   right: 0;
   width: 50%;
-  height: 55%;
+  height: 60%;
   transform: rotate(-35deg) translateY(55px);
-  transition: all ease 0.55s;
+  transition: all ease 0.45s;
 }
 
 .services-icon {
-  font-size: 100px;
+  font-size: 98px;
   position: relative;
   bottom: 15px;
 }
@@ -672,8 +672,8 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  padding: 6px 20px 6px 15px;
-  transition: all ease 0.55s;
+  padding: 7px 20px 7px 15px;
+  transition: all ease 0.45s;
 }
 
 .services-price-text {
@@ -702,10 +702,10 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  margin-top: 27px;
-  margin-bottom: 27px;
+  margin-top: 26px;
+  margin-bottom: 26px;
   padding: 42px;
-  transition: all ease 0.5s;
+  transition: all ease 0.35s;
 }
 
 .projects-thumb:hover {
@@ -728,11 +728,11 @@ strong {
   display: block;
   width: 100%;
   transform: rotate(10deg) translateY(80px);
-  transition: all ease 0.55s;
+  transition: all ease 0.45s;
 }
 
 .projects-title {
-  margin-bottom: 22px;
+  margin-bottom: 21px;
 }
 
 .projects-tag {
@@ -740,7 +740,7 @@ strong {
   font-weight: var(--font-weight-medium);
   color: var(--secondary-color);
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 /*---------------------------------------
@@ -775,7 +775,7 @@ strong {
   box-shadow: none;
   border: 2px solid var(--border-color);
   color: var(--p-color);
-  margin-bottom: 27px;
+  margin-bottom: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
   outline: none;
@@ -791,7 +791,7 @@ strong {
   position: relative;
   margin-right: 0;
   margin-top: 0;
-  margin-bottom: 27px;
+  margin-bottom: 26px;
   padding: 0;
 }
 
@@ -807,7 +807,7 @@ strong {
   color: var(--p-color);
   display: block;
   font-size: copyright-font-size;
-  margin-top: 6px;
+  margin-top: 7px;
 }
 
 .form-check-input[type=checkbox] {
@@ -818,7 +818,7 @@ strong {
   width: 100%;
   margin-top: 0;
   margin-left: 0;
-  padding: 42px 51px;
+  padding: 44px 56px;
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -838,7 +838,7 @@ strong {
 }
 
 .custom-form .form-floating textarea {
-  height: 150px;
+  height: 160px;
 }
 
 .custom-form button[type="submit"] {
@@ -862,8 +862,8 @@ strong {
 -----------------------------------------*/
 .site-footer {
   border-top: 1px solid var(--border-color);
-  padding-top: 54px;
-  padding-bottom: 54px;
+  padding-top: 56px;
+  padding-bottom: 56px;
   text-align: center;
 }
 
@@ -881,7 +881,7 @@ strong {
 .copyright-text {
   border-right: 1px solid var(--border-color);
   padding-right: 26px;
-  margin-right: 22px;
+  margin-right: 21px;
 }
 
 .copyright-text-wrap a {
@@ -909,8 +909,8 @@ strong {
   text-align: center;
   margin-right: 11px;
   margin-bottom: 11px;
-  padding: 9px 17px;
-  min-width: 75px;
+  padding: 10px 20px;
+  min-width: 72px;
 }
 
 .footer-menu-link:hover {
@@ -941,10 +941,10 @@ strong {
   color: var(--dark-color);
   display: inline-block;
   vertical-align: top;
-  margin: 3px 3px 7px 3px;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
+  margin: 3px 3px 6px 3px;
+  width: 47px;
+  height: 47px;
+  line-height: 47px;
   text-align: center;
 }
 
@@ -966,12 +966,12 @@ strong {
 
   .hero-image-wrap {
     top: -50px;
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 420px;
   }
 
   .hero-image {
-    min-width: 650px;
+    min-width: 720px;
   }
   
   .hero-title,
@@ -990,11 +990,11 @@ strong {
   }
 
   h3 {
-    font-size: 38px;
+    font-size: 37px;
   }
 
   h4 {
-    font-size: 29px;
+    font-size: 28px;
   }
 
   h5 {
@@ -1006,8 +1006,8 @@ strong {
   }
 
   .section-padding {
-    padding-top: 85px;
-    padding-bottom: 85px;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
 
   .custom-btn,
@@ -1028,9 +1028,9 @@ strong {
   .navbar-icon {
     background: var(--secondary-color);
     color: var(--white-color);
-    width: 47px;
-    height: 47px;
-    line-height: 47px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
   }
 
   .navbar .custom-btn {
@@ -1061,7 +1061,7 @@ strong {
 
   .hero-text {
     top: 0;
-    margin-bottom: 125px;
+    margin-bottom: 112.5px;
   }
 
   .about-thumb {
